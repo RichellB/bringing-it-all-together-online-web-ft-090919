@@ -44,11 +44,6 @@ class Dog
     breed = row[2]
     self.new(id: id, name: name, breed: breed)
     
-    
-    new_dog = self.new
-    new_dog.id = row[0]
-    new_dog.name = [1]
-    
   end
 
   def self.find_by_name(name)
